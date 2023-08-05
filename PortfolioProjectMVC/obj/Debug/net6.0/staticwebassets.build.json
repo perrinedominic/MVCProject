@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Vvo3/NEewWWmiMXzDpZgXuHuKYNt0heVqTSfkwYJMOk=",
+  "Hash": "mn55ABowPadYCKrjkWW6XFyxAkUabqqIgLax3a7YaQs=",
   "Source": "PortfolioProjectMVC",
   "BasePath": "_content/PortfolioProjectMVC",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\perri\\Documents\\git\\MVCProject\\PortfolioProjectMVC\\wwwroot\\css\\StyleSheet.css",
+      "SourceId": "PortfolioProjectMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\perri\\Documents\\git\\MVCProject\\PortfolioProjectMVC\\wwwroot\\",
+      "BasePath": "_content/PortfolioProjectMVC",
+      "RelativePath": "css/StyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\StyleSheet.css"
     },
     {
       "Identity": "C:\\Users\\perri\\Documents\\git\\MVCProject\\PortfolioProjectMVC\\wwwroot\\favicon.ico",
