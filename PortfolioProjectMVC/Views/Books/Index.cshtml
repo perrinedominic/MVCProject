@@ -36,24 +36,36 @@
     <tbody>
 @foreach (var item in Model) {
         <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Title)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ISBN)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.TotalPages)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.AuthorId)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.PublisherId)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.GenreId)
-            </td>
+                <td>
+                    <h5>
+                        @Html.DisplayFor(modelItem => item.Title)
+                    </h5>
+                </td>
+                <td>
+                    <h5>
+                        @Html.DisplayFor(modelItem => item.ISBN)
+                    </h5>
+                </td>
+                <td>
+                    <h5>
+                        @Html.DisplayFor(modelItem => item.TotalPages)
+                    </h5>
+                </td>
+                <td>
+                    <h5>
+                        @Html.DisplayFor(modelItem => item.AuthorId)
+                    </h5>
+                </td>
+                <td>
+                    <h5>
+                        @Html.DisplayFor(modelItem => item.PublisherId)
+                    </h5>
+                </td>
+                <td>
+                    <h5>
+                        @Html.DisplayFor(modelItem => item.GenreId)
+                    </h5>
+                </td>
             <td>
                     <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning">Edit</a> |
                     <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-warning">Details</a> |
