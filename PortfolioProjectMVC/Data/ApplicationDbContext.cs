@@ -12,5 +12,13 @@ namespace PortfolioProjectMVC.Data
 
         public DbSet<Category> Categories { get; set; }
 
+        public DbSet<PortfolioProjectMVC.Models.Book>? Book { get; set; }
+
+        public DbSet<PortfolioProjectMVC.Models.Author>? Author { get; set; }
+
+        public DbSet<PortfolioProjectMVC.Models.Publisher>? Publisher { get; set; }
+
+        public DbSet<PortfolioProjectMVC.Models.Genre>? Genre { get; set; }
+
     }
 }
